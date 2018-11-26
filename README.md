@@ -22,6 +22,15 @@
 ![负数计算演示](https://github.com/VicentWYS/Calculator/blob/master/%E8%B4%9F%E6%95%B0%E8%AE%A1%E7%AE%97%E6%BC%94%E7%A4%BA.gif)
 
 
+按钮点击分析：
+![按钮点击分析](https://github.com/VicentWYS/Calculator/blob/master/%E6%8C%89%E9%92%AE%E7%82%B9%E5%87%BB%E5%88%86%E6%9E%9001.png)
+
+
+等于号点击分析：
+![等于号点击分析](https://github.com/VicentWYS/Calculator/blob/master/%E6%8C%89%E9%92%AE%E7%82%B9%E5%87%BB%E5%88%86%E6%9E%9002%20%E7%AD%89%E4%BA%8E%E5%8F%B7.png)
+
+
+
 
 
 
