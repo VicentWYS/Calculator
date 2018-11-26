@@ -2,6 +2,10 @@
 利用 android 制作的计算器，可以实现整数、浮点数的四则运算
 
 
+详细解释在我的博客园：https://www.cnblogs.com/CPU-Easy/p/10022208.html
+
+
+
 程序文件结构：
 ![程序文件结构](https://github.com/VicentWYS/Calculator/blob/master/%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84.png)
 
