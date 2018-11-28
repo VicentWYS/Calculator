@@ -441,7 +441,7 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
                             }
 
                             //判断操作符类型，从而进行响应运算
-                            Double resultDou = -0.0;//result保存运算结果
+                            Double resultDou = 0.0;//result保存运算结果
                             int flag = 1;//用于指示除法运算中被除数是否为0，若被除数为0，则flag=0,否则flag=1
                             switch (op) {
                                 case "+":
@@ -458,9 +458,10 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
                                     if (rdDou == 0.0) {
                                         Toast.makeText(Main3Activity.this, "输入不合法：被除数不能为0!", Toast.LENGTH_SHORT).show();
                                         break;
+                                    }else{
+                                        resultDou = rsDou / rdDou;
+                                        break;
                                     }
-                                    resultDou = rsDou / rdDou;
-                                    break;
                                 default:
                                     break;
                             }
@@ -486,7 +487,7 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
                             }
 
                             //判断操作符类型，从而进行响应运算
-                            int resultInt = -1;//result保存运算结果
+                            int resultInt = 0;//result保存运算结果
                             int flag = 1;//用于指示除法运算中被除数是否为0，若被除数为0，则flag=0,否则flag=1
                             switch (op) {
                                 case "+":
@@ -503,9 +504,10 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
                                     if (rdInt == 0) {
                                         Toast.makeText(Main3Activity.this, "输入不合法：被除数不能为0!", Toast.LENGTH_SHORT).show();
                                         break;
+                                    }else{
+                                        resultInt = rsInt / rdInt;
+                                        break;
                                     }
-                                    resultInt = rsInt / rdInt;
-                                    break;
                                 default:
                                     break;
                             }
